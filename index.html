@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Demonstration</title>
+</head>
+<body>
+    <h1>HTML Elements Demonstration</h1>
+    <p>A webpage built using basic HTML elements only.</p><hr>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="#semantic">Semantic</a> | 
+        <a href="#text">Text Formatting</a> | 
+        <a href="#lists">Lists</a> | 
+        <a href="#links">Links & Media</a> | 
+        <a href="#tables">Tables</a> | 
+        <a href="#forms">Forms</a> | 
+        <a href="#interactive">Interactive</a>
+    </nav>
+
+    <hr>
+
+    <!-- Semantic Tags Section -->
+    <section id="semantic">
+        <h2>Semantic Tags</h2>
+        
+        <header>
+            <h3>Header Element</h3>
+            <p>This is inside a header tag - typically used for introductory content.</p>
+        </header>
+
+        <article>
+            <h3>Article Element</h3>
+            <p>This is an article - independent, self-contained content like a blog post.</p>
+        </article>
+
+        <aside>
+            <h3>Aside Element</h3>
+            <p>This is aside content - typically a sidebar with supplementary information.</p>
+        </aside>
+
+        <footer>
+            <p>This is a footer element - usually contains copyright or related links.</p>
+        </footer>
+    </section>
+
+    <hr>
+
+    <!-- Text Formatting Section -->
+    <section id="text">
+        <h2>Text Formatting Tags</h2>
+        
+        <p>This text contains <strong>strong text</strong>, <em>emphasized text</em>, <b>bold text</b>, and <i>italic text</i>.</p>
+        
+        <p>This has <u>underlined text</u>, <mark>highlighted text</mark>, <small>small text</small>, and <del>deleted text</del>.</p>
+        
+        <p>This shows <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+        
+        <p><code>This is inline code</code> example.</p>
+        
+        <pre>
+This is preformatted text
+    It preserves spaces
+        And line breaks
+        </pre>
+        
+        <blockquote>
+            "Learning HTML is the first step toward web development." - Developer
+        </blockquote>
+
+        <p><q>This is a short inline quote.</q></p>
+
+        <p><cite>Author Name</cite> wrote this.</p>
+
+        <p><abbr title="HyperText Markup Language">HTML</abbr> is used for web pages.</p>
+    </section>
+
+    <hr>
+
+    <!-- Lists Section -->
+    <section id="lists">
+        <h2>Lists</h2>
+        
+        <h3>Unordered List - Disc (Default)</h3>
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Unordered List - Circle</h3>
+        <ul type="circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Unordered List - Square</h3>
+        <ul type="square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Ordered List - Numbers (1, 2, 3)</h3>
+        <ol type="1">
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Ordered List - Uppercase Letters (A, B, C)</h3>
+        <ol type="A">
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Ordered List - Lowercase Letters (a, b, c)</h3>
+        <ol type="a">
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Ordered List - Uppercase Roman Numerals (I, II, III)</h3>
+        <ol type="I">
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Ordered List - Lowercase Roman Numerals (i, ii, iii)</h3>
+        <ol type="i">
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Structure of a webpage.</dd>
+            <dt>CSS</dt>
+            <dd>Styling of a webpage.</dd>
+            <dt>JavaScript</dt>
+            <dd>Interactivity of a webpage.</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <!-- Links and Media Section -->
+    <section id="links">
+        <h2>Links & Media</h2>
+
+        <h3>Links</h3>
+        <p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+        <p><a href="#semantic">Go to Semantic Section</a></p>
+
+        <h3>Image</h3>
+        <p>Sample Image:</p>
+        <img src="Majili.jpg" alt="Sample Image">
+
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="Ee Rathale.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="Ee Rathale .mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <h3>Iframe - Embedded Webpage</h3>
+        <iframe src="https://www.w3schools.com" width="400" height="300" title="W3Schools Website"></iframe>
+    </section>
+
+    <hr>
+
+    <!-- Tables Section -->
+    <section id="tables">
+        <h2>Tables</h2>
+        
+        <table border="1">
+            <caption>Student Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>20</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>21</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>Charlie</td>
+                    <td>19</td>
+                    <td>JavaScript</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total: 3 Students</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3>Table with Rowspan and Colspan</h3>
+        <table border="1">
+            <caption>Rowspan and Colspan Example</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th colspan="2">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Fruits</td>
+                    <td>Apple</td>
+                    <td>Red</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Yellow</td>
+                </tr>
+                <tr>
+                    <td>Vegetables</td>
+                    <td colspan="2">Carrot, Potato</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Forms Section -->
+    <section id="forms">
+        <h2>Forms</h2>
+        
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <br><br>
+
+                <label>Skills:</label>
+                <input type="checkbox" name="skills" value="html"> HTML
+                <input type="checkbox" name="skills" value="css"> CSS
+                <input type="checkbox" name="skills" value="javascript"> JavaScript
+                <br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">Select</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="india">India</option>
+                </select>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Interactive Elements Section -->
+    <section id="interactive">
+        <h2>Interactive & Other Tags</h2>
+
+        <h3>Progress Bar</h3>
+        <progress value="70" max="100"></progress>
+        <br><br>
+
+        <h3>Meter</h3>
+        <meter value="6" min="0" max="10"></meter>
+        <br><br>
+
+        <h3>Details & Summary</h3>
+        <details>
+            <summary>What is HTML?</summary>
+            <p>HTML (HyperText Markup Language) is used to create web pages. It provides the structure and content of websites.</p>
+        </details>
+        <br>
+
+        <h3>Figure & Figcaption</h3>
+        <figure>
+            <img src="https://via.placeholder.com/200" alt="Example">
+            <figcaption>This is a figure caption</figcaption>
+        </figure>
+        <br>
+
+        <h3>Time Element</h3>
+        <p>The meeting is on <time datetime="2024-12-25">December 25, 2024</time>.</p>
+
+        <h3>Subscript & Superscript</h3>
+        <p>Water formula: H<sub>2</sub>O</p>
+        <p>Einstein's formula: E=mc<sup>2</sup></p>
+
+        <h3>Keyboard Input</h3>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+
+        <h3>Variable & Sample</h3>
+        <p>The value of <var>x</var> is 10.</p>
+        <p>Program output: <samp>Hello World</samp></p>
+
+        <h3>Marquee Element</h3>
+        <marquee>This is scrolling text using marquee tag!</marquee>
+        <br>
+        <marquee direction="right" behavior="slide">This text slides from right to left</marquee>
+        <br>
+        <marquee behavior="alternate">This text bounces back and forth</marquee>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; HTML Demo Page</p>
+        <p>venkateshjakkula786@gmail.com</p>
+        <p>J Venky</p>
+        <p>+91 7416212939</p>
+    </footer>
+
+</body>
+</html>
